@@ -13,9 +13,14 @@ $city_array = array("Delhi"=>array("New Delhi","CP","Chanakyapuri"),
 );
 if(isset($_POST['country'])!=""){
     $country = $_POST["country"]; ?>
-    <option value="">-- Select State --</option>
+<!--    <option value="">-- Select Statedddddddddd --</option>-->
     <?php foreach ($state_array[$country] as $statename) { ?>
-        <option value="<?php echo $statename;?>"><?php echo $statename;?></option>
+<!--        <option value="--><?php //echo $statename;?><!--">--><?php //echo $statename;?><!--</option>-->
+
+        <td> Statename </td>
+        <td>
+          <?php echo $statename; ?></br>
+        </td>
     <?php } ?>
 <?php }
 

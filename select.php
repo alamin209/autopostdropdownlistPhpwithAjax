@@ -66,7 +66,7 @@ $country_array = array("INDIA","PAKISTAN","CHINA");
                 <label>Country</label>
                 <div class="input_fields">
                     <select class="select_country">
-                        <option value="">-- Select Country --</option>
+                        <option value="">-- Select Country  --</option>
                         <?php foreach ($country_array as $countryname) { ?>
                             <option value="<?php echo $countryname;?>"><?php echo $countryname;?></option>
                         <?php } ?>
@@ -78,17 +78,19 @@ $country_array = array("INDIA","PAKISTAN","CHINA");
             <div class="input_row">
                 <label>State</label>
                 <div class="input_fields">
-                    <select class="select_state">
-                        <option value="">-- Select Country --</option>
-                    </select>
+                    <div class="select_state">
+
                 </div>
             </div>
-            <div class="input_row">
+            <div class="select_cit">
                 <label>City</label>
                 <div class="input_fields">
                     <select class="select_city">
                         <option value="">-- Select State --</option>
                     </select>
+
+
+
                 </div>
             </div>
         </form>
