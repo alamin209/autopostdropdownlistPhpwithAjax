@@ -1,5 +1,5 @@
 <?php
-$state_asdsdsdd = array("INDIA"=>array("Delhi","Gujarat","Rajasthan","Maharastra"),
+$state_array = array("INDIA"=>array("Delhi","Gujarat","Rajasthan","Maharastra"),
     "PAKISTAN"=>array("Sindh","Punjab"),
     "CHINA"=>array("China state 1","China state 2"));
 $city_array = array("Delhi"=>array("New Delhi","CP","Chanakyapuri"),
